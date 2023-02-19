@@ -4,11 +4,11 @@ import { RootState } from "@/store";
 import { IUser } from "@/types/types";
 
 const initialState: IUser | undefined = {
-  username: "a",
-  email: "v",
-  password: "c",
-  _id: "d",
-  role: "s",
+  username: "",
+  email: "",
+  password: "",
+  _id: "",
+  role: "",
 };
 
 export const userSlice = createSlice({
