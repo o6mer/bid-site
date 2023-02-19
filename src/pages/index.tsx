@@ -1,11 +1,10 @@
 import Head from "next/head";
-import { counterSelector, increment } from "@/slices/counterSlice";
-import { useDispatch, useSelector } from "react-redux";
 import HomeContainer from "@/components/home/HomeContainer";
 
 export default function Home() {
   // const counter = useSelector(counterSelector);
   // const dispatch = useDispatch();
+
   return (
     <>
       <Head>
